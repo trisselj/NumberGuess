@@ -27,4 +27,4 @@ while True:
 if guess_count == 1:
     print(f"You guessed it in 1 try.")
 else:
-    print(f"You guessed it in {guess_count} tries!")
+    print(f"You guessed it in {guess_count} tries.")
