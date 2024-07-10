@@ -19,9 +19,9 @@ while True:
     if guess == Target:
         break
     elif guess > Target:
-        print("Too high - try again: ")
+        print("Too high - try again:")
     else:
-        print("Too low - try again: ")
+        print("Too low - try again:")
 
 #Prints out number of guesses
 if guess_count == 1:
