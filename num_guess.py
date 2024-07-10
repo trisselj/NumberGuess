@@ -12,8 +12,9 @@ guess_count = 0
 guess = None
 
 # Gameplay loop for guessing
+print("Enter your guess.")
+
 while True:
-    print("Enter your guess.")
     guess = int(input())
     guess_count += 1
     if guess == Target:
