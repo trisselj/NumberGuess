@@ -4,7 +4,7 @@
 # Description: Reads inputs and compares to initial number printing whther input is > < or = initial number
 
 # Initial prompt for number to guess for
-Target = int(input("Enter the integer for the player to guess."))
+Target = int(input("Enter the integer for the player to guess. "))
 
 #Keeps track of guesses
 guess_count = 0
@@ -17,9 +17,9 @@ while True:
     if guess == Target:
         break
     elif guess > Target:
-        print("Your guess is too high, please try again")
+        print("Too high - try again: ")
     else:
-        print("Your guess is too low,please try again")
+        print("Too low - try again: ")
 
 #Prints out number of guesses
 if guess_count == 1:
