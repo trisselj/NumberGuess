@@ -13,7 +13,7 @@ guess = None
 
 # Gameplay loop for guessing
 while True:
-    guess = int(input("Enter your guess"))
+    guess = int(input("Enter your guess."))
     guess_count += 1
     if guess == Target:
         break
